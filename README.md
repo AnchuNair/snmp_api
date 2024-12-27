@@ -10,7 +10,7 @@ This project is a RESTful API built with Flask that manages SNMP (Simple Network
   ### Run the Application:
   cd ../snmp_api
    ```bash
-   python app.py
+   python SNMP_API.py
    ```
 
    The API will run on `http://localhost:8000`.
