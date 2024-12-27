@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6761624736a59369f5312413"
+  },
+  "AgentAddress": "10.0.0.150",
+  "CommunityString": "public",
+  "Timestamp": "2024-12-10T16:00:00Z",
+  "TrapType": "LowDiskSpace",
+  "VarBind": {
+    "OID": "1.3.6.1.4.1.2021.9.1.9",
+    "Value": "/dev/sda1: 5% free"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761624736a59369f5312414"
+  },
+  "AgentAddress": "172.16.0.2",
+  "CommunityString": "public",
+  "Timestamp": "2024-12-10T17:15:00Z",
+  "TrapType": "LinkDown",
+  "VarBind": {
+    "OID": "1.3.6.1.2.1.2.2.1.8",
+    "Value": "ifIndex: 3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6764f694ef0910e5522c3bfd"
+  },
+  "AgentAddress": "192.168.1.100",
+  "CommunityString": "public",
+  "Timestamp": "2024-12-10T14:30:00Z",
+  "TrapType": "DeviceOffline",
+  "VarBind": {
+    "OID": "1.3.6.1.4.1.2021.2.1",
+    "Value": "Device went offline"
+  }
+}]
